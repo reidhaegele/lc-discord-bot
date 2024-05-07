@@ -77,6 +77,8 @@ client.once(Events.ClientReady, readyClient => {
     cron.schedule('0 19 * * *', () => {
         console.log('Creating Forum Post');
         createForumPost();
+    }, {
+        timezone: "America/Chicago" //US Central Standard Time
     });
     // createForumPost();
 });
