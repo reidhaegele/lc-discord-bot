@@ -4,11 +4,13 @@
   "description": "Discord bot to fetch the Leetcode Daily question",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Reid Haegele",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^14.15.2"
+    "discord.js": "^14.15.2",
+    "node-cron": "^3.0.3"
   }
 }
